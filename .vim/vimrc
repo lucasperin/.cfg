@@ -6,7 +6,7 @@ set secure
 execute pathogen#infect()
 
 "default bash"
-set shell=/bin/bash
+set shell=/bin/zsh
 
 "Line Numbers"
 set number
@@ -28,7 +28,7 @@ highlight ColorColumn ctermbg=red
 "Color Theme"
 syntax enable
 set background=dark
-colorscheme solarized
+"colorscheme solarized
 
 "File type detection"
 augroup project
