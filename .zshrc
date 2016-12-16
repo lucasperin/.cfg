@@ -83,6 +83,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-unsetopt BEEP
 
+# My custom stuff
+unsetopt BEEP
 alias config='/usr/bin/git --git-dir=/home/perin/.cfg/ --work-tree=/home/perin'
+umask 022
