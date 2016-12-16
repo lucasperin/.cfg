@@ -87,4 +87,5 @@ source $ZSH/oh-my-zsh.sh
 # My custom stuff
 unsetopt BEEP
 alias config='/usr/bin/git --git-dir=/home/perin/.cfg/ --work-tree=/home/perin'
+alias sudo='/usr/bin/sudo -S'
 umask 022
