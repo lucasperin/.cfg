@@ -216,7 +216,7 @@ client.placeholder          $bg     $bg         $bg     $bg
 bar {
     output            DP1
     position          top
-	font pango:Economica, FontAwesome 12
+	font pango:DejaVu Sans Mono, Awesome 12
 	separator_symbol "⋆"
 
     status_command i3status -c $HOME/.i3/i3status.conf
